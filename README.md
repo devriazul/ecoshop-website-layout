@@ -5,7 +5,7 @@
 - Include light/dark mode.
 - Custom count down timer
 
-[preview](https://russellimtiaz.github.io/ecoshop/)
+[preview](https://devriazul.github.io/ecoshop-website-layout/)
 
 <!-- ![preview](preview.png) -->
 # ecoshop-website-layout
