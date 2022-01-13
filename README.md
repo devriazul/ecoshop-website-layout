@@ -7,5 +7,5 @@
 
 [preview](https://russellimtiaz.github.io/ecoshop/)
 
-![preview](preview.png)
+<!-- ![preview](preview.png) -->
 # ecoshop-website-layout
