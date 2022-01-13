@@ -1,0 +1,125 @@
+/* Responsive CSS */
+/* Applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+  .wrapper {
+    width: 1140px;
+  }
+  .banner__content h3 {
+    font-size: 58px;
+  }
+}
+/* Applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .wrapper {
+    width: 960px;
+  }
+  .header__form {
+    grid-column: span 6;
+  }
+  .header__form .form {
+    width: 75%;
+  }
+  .header__icons {
+    grid-column: span 4;
+  }
+}
+/* Applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .wrapper {
+    width: 720px;
+  }
+  .header__logo {
+    grid-column: span 3;
+  }
+  .header__form {
+    grid-area: 2/1/1/13;
+  }
+  .header__icons {
+    grid-column: span 9;
+  }
+  .category__box {
+    grid-column: span 12;
+  }
+  .product__box,
+  .featured__box,
+  .review__box,
+  .footer-top__box {
+    grid-column: span 6;
+  }
+}
+/* Applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .wrapper {
+    width: 540px;
+  }
+
+  .banner__content h3 {
+    font-size: 27px;
+  }
+  .banner__content span {
+    font-size: 24px;
+  }
+  .product__box,
+  .featured__box,
+  .deal__box {
+    grid-column: span 12;
+  }
+}
+/* Applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .wrapper {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .grid {
+    gap: 15px;
+  }
+  .pt-60 {
+    padding-top: 35px;
+  }
+  .pb-60 {
+    padding-bottom: 35px;
+  }
+  .header__form .form {
+    width: 100%;
+  }
+  .header__logo {
+    text-align: center;
+  }
+  .header__icons {
+    justify-content: center;
+  }
+  .header__logo,
+  .banner__left,
+  .header__icons,
+  .review__box,
+  .footer-top__box {
+    grid-column: span 12;
+  }
+  .banner__right {
+    grid-area: 2/1/1/13;
+  }
+  .category__content {
+    left: 20px;
+    margin-top: 0;
+  }
+  .category__content span {
+    font-size: 16px;
+  }
+  .category__content h2,
+  .deal__box .discount,
+  .footer-bottom__title {
+    font-size: 18px;
+  }
+  .category__content .btn {
+    padding: 5px 20px;
+    margin-top: 5px;
+  }
+  .deal__box .text,
+  .deal__box .count-down .box h3 {
+    font-size: 25px;
+  }
+}
